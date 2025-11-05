@@ -1,4 +1,4 @@
-FROM openjdk:17-jre-slim-buster 
+FROM amazoncorretto:17-jre-alpine
 
 # Copy your JAR file into the container (replace 'eaglercraft-relay.jar' with your actual filename)
 COPY EaglerSPRelay.jar /app/EaglerSPRelay.jar
